@@ -38,7 +38,7 @@ model = joblib.load('diabetes_model.pkl')
 # Defining the Streamlit app
 st.set_page_config(page_title = "Diabetes Prediction App", layout="centered")
 st.title("Diabetes Prediction App")
-st.write("Melissa Merab - Data Science Project")
+st.write("Melissa Merab - Data Science Project 2")
 st.title("Diabetes Risk Assessment Model")
 st.write("Fill the details below to assess your likelihood of diabetes.")
 
@@ -76,3 +76,4 @@ with st.form('Prediction Form'):
             st.error("The model predicts that you are at risk of diabetes.")
         else:
             st.success("The model predicts that you are not at risk of diabetes.")
+
