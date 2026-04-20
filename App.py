@@ -4,7 +4,7 @@ import streamlit as st
 import joblib
 
 st.markdown(
-    
+    """
     <style>
     .block-container {
     border: 25px solid green;
@@ -29,7 +29,7 @@ st.markdown(
     background-color: #F5F5F5;
     }
     </style>
-    ,
+    """,
     unsafe_allow_html=True
 )
 # Loading trained model
