@@ -1,0 +1,22 @@
+block-container {
+border: 25px solid rgb(70, 12, 136);
+outline: 10px solid rgb(16, 16, 87);
+border-radius: 15px;
+padding: 10px 25px;
+}
+p {
+color: rgb(34, 104, 104);
+}
+h1 {
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
+color: rgb(16, 16, 124);
+}
+h2 {
+font-family: 'Arial black', Gadget, sans-serif;
+font-size: 30px;
+color: rgb(6, 193, 255);
+}
+.main {
+background-color: #d0f57a;
+}
