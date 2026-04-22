@@ -2,3 +2,6 @@ pandas
 streamlit
 scikit-learn
 joblib
+pyyaml
+streamlit-authenticator
+numpy
