@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    doctor1:
+      email: doctoraria@hospital.com
+      name: Dr. Aria
+      password: abc # plain text gets hashed automatically 
+    nurse1:
+      email: nurserick@hospital.com
+      name: Nurse Rick
+      password: abc # plain text gets hashed automatically 
+
+cookie:
+  expiry_days: 30
+  key: diabetes_app_signature_key
+  name: diabetes_app_cookie
